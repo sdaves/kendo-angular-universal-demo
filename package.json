@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/ng-seed/universal#readme",
   "scripts": {
-    "build": "mv node_sample_application/* . && npm run build:spa-prod 
+    "build": "mv node_sample_application/* . && npm run build:spa-prod",
     "build:spa-dev": "gulp clean && gulp build:spa-dev",
     "build:spa-prod": "gulp clean && gulp build:spa-prod",
     "build:universal-dev": "gulp clean && gulp build:universal-dev",
